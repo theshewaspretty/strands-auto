@@ -1,11 +1,9 @@
 #!/bin/bash
 
 # Install requirements
-echo "Installing requirements..."
 pip install -r requirements.txt
 
 # Run Streamlit app
-echo "Starting Strands Agents application..."
 streamlit run app.py --server.port 8501 --server.address 0.0.0.0
 
 # ## 실행 방법:
